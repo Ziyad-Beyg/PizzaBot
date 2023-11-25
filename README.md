@@ -14,3 +14,6 @@ You can test it from [Here](https://t.me/Pizza_17Bot).
 
 Taking Customer Order
 ![](https://github.com/Ziyad-Beyg/PizzaBot/blob/main/gif1.gif)
+
+Taking User Info
+![](https://github.com/Ziyad-Beyg/PizzaBot/blob/main/gif2.gif)

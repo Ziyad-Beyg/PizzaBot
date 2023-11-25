@@ -10,6 +10,7 @@ I have used Telegram integration in this chatbot.
 
 You can test it from [Here](https://t.me/Pizza_17Bot).
 
-#Demo
+# Demo
 
+Taking Customer Order
 ![](https://github.com/Ziyad-Beyg/PizzaBot/blob/main/gif1.gif)

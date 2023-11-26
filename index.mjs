@@ -15,7 +15,7 @@ const app = express();
 const PORT = process.env.PORT || 8080;
 
 // Function for Database Connection
-ConnectDB();
+ConnectDB({ app, PORT });
 
 // MiddleWares
 app.use(cors());
@@ -25,8 +25,3 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // ROUTES
 app.use("/", OrderRouter);
-
-// Server Invoking Function
-app.listen(PORT, () => {
-  console.log(`SERVER RUNNING ON PORT ${PORT}`);
-});

@@ -10,4 +10,4 @@ export const router = Router();
 router.get("/", getHomeRoute);
 
 // DialogFlow FulFillment WebHook Route
-router.post("/webhook-call", postChatbotData);
+router.post("/api/webhook-call", postChatbotData);

@@ -24,7 +24,7 @@ app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // ROUTES
-app.use("/api/chatbot", OrderRouter);
+app.use("/", OrderRouter);
 
 // Server Invoking Function
 app.listen(PORT, () => {

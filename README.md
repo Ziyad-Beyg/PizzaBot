@@ -6,6 +6,8 @@ I have used dialogFlow platform to take customers orders and i have made a serve
 
 In this server i have integerated functionalities like save the order to DB (MongoDB), confirm customer order and send custom responses to user.
 
+I have deployed my server to CYCLIC.
+
 I have used Telegram integration in this chatbot.
 
 You can test it from [Here](https://t.me/Pizza_17Bot).

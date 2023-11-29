@@ -2,6 +2,7 @@ import { WebhookClient } from "dialogflow-fulfillment";
 import PlaceOrder from "../Services/PlaceOrder.mjs";
 import ConfirmItem from "../Services/ConfirmItem.mjs";
 import CancelOrder from "../Services/CancelOrder.mjs";
+import UserWelcome from "../Services/UserWelcome.mjs";
 
 // @desc Get Home Route of Server
 // @route GET /api/chatbot
@@ -19,6 +20,7 @@ const postChatbotData = (request, response) => {
   const _agent = new WebhookClient({ request, response });
   let intentMap = new Map();
   // DialogFlow Intents
+  intentMap.set("Default Welcome Intent", UserWelcome);
   intentMap.set("item.confirm.yes", ConfirmItem);
   intentMap.set("user.info.get", PlaceOrder);
   intentMap.set("cancel.order", CancelOrder);
